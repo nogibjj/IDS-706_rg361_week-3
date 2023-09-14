@@ -1,0 +1,11 @@
+#Devops
+black
+pytest
+pylint
+pytest-cov
+
+#Data Science
+jupyter
+pandas
+numpy
+matplotlib
