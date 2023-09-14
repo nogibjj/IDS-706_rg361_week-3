@@ -1,6 +1,6 @@
 """Test file to verify main function"""
 
-import pandas as pd
+import polars as pl
 from main import descriptive_stats
 
 
@@ -8,23 +8,25 @@ def test_stat():
     # initialize list elements
 
     fname = "./resources/blood_pressure.csv"
-    # Create the pandas DataFrame
-    df = pd.read_csv(fname)
+    # Create the polars DataFrame
+    df = pl.read_csv(fname)
 
     # Test case 1: col number specified
     col = 3
+    col_name = df.columns[col]
     assert [
-        df.iloc[:, col].mean(),
-        df.iloc[:, col].median(),
-        df.iloc[:, col].std(),
+        df[col_name].mean(),
+        df[col_name].median(),
+        df[col_name].std(),
     ] == descriptive_stats(fname, 4)
 
     # Test case 2: col number not specified, shoudl use last column
     col = 4
+    col_name = df.columns[col]
     assert [
-        df.iloc[:, col].mean(),
-        df.iloc[:, col].median(),
-        df.iloc[:, col].std(),
+        df[col_name].mean(),
+        df[col_name].median(),
+        df[col_name].std(),
     ] == descriptive_stats(fname)
 
 
