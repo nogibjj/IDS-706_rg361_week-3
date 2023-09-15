@@ -24,7 +24,7 @@ def test_stat():
     col = 4
     col_name = df.columns[col]
     assert [
-        df[col_name].mean()+1,
+        df[col_name].mean(),
         df[col_name].median(),
         df[col_name].std(),
     ] == descriptive_stats(fname)
