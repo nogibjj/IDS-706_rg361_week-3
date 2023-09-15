@@ -5,9 +5,9 @@ This repo contains the project file which returns the following for the **select
    2. prints these results to ``summary.md`` file
    3. generates a histogram of the selcted column and saves it as ``output.png`` file
 
-The code reads the data from the csv and stores it as a [polars DataFrame]([https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html](https://pola-rs.github.io/polars/py-polars/html/reference/dataframe/index.html) for the analysis.
+The code reads the data from the csv and stores it as a [polars DataFrame](https://pola-rs.github.io/polars/py-polars/html/reference/dataframe/index.html) for the analysis.
 
-This repo has been created using the [Repository for Data Engineering Week-2 mini-project](https://github.com/nogibjj/IDS-706_rg361_week-2) template which was created as week-2 mini-project.
+This repo has been created using the [IDS-706_rg361_week-2](https://github.com/nogibjj/IDS-706_rg361_week-2) template which was created as week-2 mini-project.
 
 Date Created: 2023-09-14
 
