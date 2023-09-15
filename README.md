@@ -46,7 +46,7 @@ The function takes in the following 2 parameters:
    - ``test`` : uses pytest to test the python codes using the test_* files to test the main files
      
    **Note** -if all the processes run successfully the following output will be visible in github actions:
-   ![Success Build](https://github.com/nogibjj/IDS-706_rg361_week-2/blob/b3ef720f0fd41803c4306ef34420e419f4d58d99/resources/success_build_week2.png)
+   ![Success Build](https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/success_build_week3.png)
    
 ### 4. Makefile
    contains the instructions for the processes used in github actions and .devcontainer for creating the virtual environment
@@ -64,8 +64,8 @@ The function takes in the following 2 parameters:
    2. We do not specify a column number (in this test, no argument is passed to the funtion)
 
    The code runs as expected and the graph and summary are saved in the resources folder:
-![test execution](https://github.com/nogibjj/IDS-706_rg361_week-2/blob/3eb40d17417e8b343c0133dfb9374cb5891d1918/resources/test%20output_week2.png)
-![test_output](https://github.com/nogibjj/IDS-706_rg361_week-2/blob/b42dfb7ef0450dc0a6b1bcb5cb07fb771497ac29/resources/output.png)
-![summary output](https://github.com/nogibjj/IDS-706_rg361_week-2/blob/7cc26b046fac3d1dae1cad0a347f0083e2ab97eb/resources/summary_sample.png)
+![test execution](https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/test%20output_week3.png)
+![test_output]((https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/graph_sample_week3.png))
+![summary output](https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/summary_sample_week3.png)
 
 **Note** : Only the last graph and summary are stored since the test file calls the funtion twice and the function clears the previous output before saving a new one
