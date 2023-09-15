@@ -5,7 +5,7 @@ from main import descriptive_stats
 
 
 def test_stat():
-    # initialize list elements
+    """Test main code agaisnt conditions"""
 
     fname = "./resources/blood_pressure.csv"
     # Create the polars DataFrame
