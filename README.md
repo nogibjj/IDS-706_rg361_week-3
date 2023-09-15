@@ -5,9 +5,9 @@ This repo contains the project file which returns the following for the **select
    2. prints these results to ``summary.md`` file
    3. generates a histogram of the selcted column and saves it as ``output.png`` file
 
-The code reads the data from the csv and stores it as a [polars DataFrame]([https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html](https://pola-rs.github.io/polars/py-polars/html/reference/dataframe/index.html)) for the analysis.
+The code reads the data from the csv and stores it as a [polars DataFrame]([https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html](https://pola-rs.github.io/polars/py-polars/html/reference/dataframe/index.html) for the analysis.
 
-This repo has been created using the [Repository for Data Engineering Week-2 mini-project](https://github.com/nogibjj/IDS-706_rg361_week-2) created as week-2 mini-project.
+This repo has been created using the [Repository for Data Engineering Week-2 mini-project](https://github.com/nogibjj/IDS-706_rg361_week-2) template which was created as week-2 mini-project.
 
 Date Created: 2023-09-14
 
@@ -65,7 +65,7 @@ The function takes in the following 2 parameters:
 
    The code runs as expected and the graph and summary are saved in the resources folder:
 ![test execution](https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/test%20output_week3.png)
-![test_output]((https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/graph_sample_week3.png))
+![test_output](https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/graph_sample_week3.png)
 ![summary output](https://github.com/nogibjj/IDS-706_rg361_week-3/blob/3c5b6d480b1b61d060d5ed55a3915747071882a3/resources/summary_sample_week3.png)
 
 **Note** : Only the last graph and summary are stored since the test file calls the funtion twice and the function clears the previous output before saving a new one
