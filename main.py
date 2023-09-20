@@ -1,4 +1,4 @@
-""" Function to return the descriptive statistics of a Pandas Dataframe"""
+""" Function to return the descriptive statistics of a Polars Dataframe"""
 import polars as pl
 
 import matplotlib.pyplot as plt
