@@ -1,4 +1,4 @@
-# Pandas Descriptive Statistics Script [![CI](https://github.com/nogibjj/IDS-706_rg361_week-3/actions/workflows/github_actions.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-3/actions/workflows/github_actions.yml)
+# Polars Descriptive Statistics Script [![CI](https://github.com/nogibjj/IDS-706_rg361_week-3/actions/workflows/github_actions.yml/badge.svg)](https://github.com/nogibjj/IDS-706_rg361_week-3/actions/workflows/github_actions.yml)
 
 This repo contains the project file which returns the following for the **selected column** from the dataset:
    1. returns the descriptive statistics (mean, median and standard deviation) as a list
